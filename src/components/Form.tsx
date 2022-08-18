@@ -41,7 +41,7 @@ export const Form = ({add, cancel}: Props) => {
     return (
         <div className="relative flex items-center justify-center h-screen mt-5 md:mt-0 md:col-span-1">
 
-            <form action="#" method="POST" noValidate onSubmit={addPerson}
+            <form action="#" method="POST" onSubmit={addPerson}
             >
                 <div className="shadow overflow-hidden sm:rounded-lg">
                     <div className="px-4 py-5 bg-white sm:p-6">
