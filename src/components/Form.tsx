@@ -13,13 +13,13 @@ interface Props {
 export const Form = ({add, cancel}: Props) => {
     const initData = {
         avatar: "",
-        email: "yankielarapacheco@protonmail.com",
-        first_name: "Yankiel",
-        last_name: "Pacheco",
-        phone_number: "+34 624 310 948",
+        email: "",
+        first_name: "",
+        last_name: "",
+        phone_number: "",
         status: false,
         uid: "",
-        username: "Cradber"
+        username: ""
     }
     const {registerData, onChange} = useForm<Person>(initData);
     const {email, first_name, last_name, phone_number, username} = registerData;
