@@ -1,7 +1,9 @@
 
 const App = () => {
     return (
-        <h1>Hello Open Bootcamp React Intermediate with Vite and React TS</h1>
+        <div className="flex justify-center items-center w-full h-screen">
+            <h1>Hello Open Bootcamp React Intermediate with Vite, React using TypeScript and Taildwind</h1>
+        </div>
     )
 }
 
