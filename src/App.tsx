@@ -1,8 +1,16 @@
+import {useColor} from "./hooks/useColor";
 
 const App = () => {
+    const {boxStyle, restoreColor, changeColor} = useColor();
+
     return (
         <div className="flex justify-center items-center w-full h-screen">
-            <h1>Hello Open Bootcamp React Intermediate with Vite, React using TypeScript and Taildwind</h1>
+            <div
+                style={boxStyle}
+                onMouseEnter={changeColor}
+                onMouseLeave={restoreColor}
+                onDoubleClick={restoreColor}
+            ></div>
         </div>
     )
 }
